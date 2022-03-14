@@ -1,0 +1,82 @@
+/*!
+Theme Name: W3 Theme Child
+Theme URI: https://github.com/AlwynBarry/w3-theme-child
+Author: Alwyn Barry
+Author URI: 
+Description: Child theme for w3.css Base Theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: 
+Template: w3-theme
+Text Domain: wt
+Tags: child-theme
+
+This theme, like WordPress, is licensed under the GPL.
+
+w3-theme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+
+/**
+ * Add your style overrides here
+ * ----------------------------------------------------------------------- */
+
+
+/**
+ * 1.	Colours and sizes
+ * 		Change the defaults here by uncommenting the line you want to change
+ * 		and inserting the new value.  Delete the lines you aren't changing.
+ **/
+:root {
+/** Colours **/
+/*	--wt-primary-color: #3a76ca;					*/
+/*	--wt-primary-lighter-color: #89ade0;			*/
+/*	--wt-primary-darker-color: #2c5ea4;				*/
+/*	--wt-complementary-1-color: #76ca3a;			*/
+/*	--wt-complementary-1-lighter-color: #ade089;	*/
+/*	--wt-complementary-1-darker-color: #5ea42c;		*/
+/*	--wt-complementary-2-color: #ca3a76;			*/
+/*	--wt-complementary-2-lighter-color: #e089ad;	*/
+/*	--wt-complementary-2-darker-color: #a42c5e;		*/
+/*	--wt-light-grey-color: #eeeeee;					*/
+/*	--wt-dark-grey-color: #333333;					*/
+/*	--wt-text-color: #333333;						*/
+/*	--wt-text-mid-color: #acaeaf;					*/
+/*	--wt-text-lighter-color: #ffffff;				*/
+/*	--wt-link-color: #3a76ca;						*/
+/*	--wt-link-hover-color: #6fc6e0;					*/
+/*	--wt-top-menu-text-color: #ffffff;				*/
+/*	--wt-button-text-color: #ffffff;				*/
+/*	--wt-boxes-text-color: #ffffff;					*/
+/*	--wt-boxes-background-color: #3a76ca;			*/
+/*	--wt-header-text-color: #ffffff;				*/
+/*	--wt-header-background-color: #3a76ca;			*/
+/*	--wt-breadcrumb-text-color: #ffffff;			*/
+/*	--wt-breadcrumb-link-color: #99ccff;			*/
+/*	--wt-breadcrumb-hover-color: #99ffff;			*/
+/*	--wt-footer-text-color: #acaeaf;				*/
+/*	--wt-footer-background-color: #313539;			*/
+
+/** Content sizes **/
+/*	--wt-content-width: 768px;	*/
+/*	--wt-wide-width: 990px;		*/
+
+/** Font sizes **/
+/*	--wt-huge-size: 3rem;		*/
+/*	--wt-larger-size: 2.5rem;	*/
+/*	--wt-large-size: 2rem;		*/
+/*	--wt-h1-size: 3rem;			*/
+/*	--wt-h2-size: 2rem;			*/
+/*	--wt-medium-size: 1.5rem;	*/
+/*	--wt-h3-size: 1.5rem;		*/
+/*	--wt-default-size: 1rem;	*/
+/*	--wt-h4-size: 1rem;			*/
+/*	--wt-h5-size: 0.9rem;		*/
+/*	--wt-small-size: 0.8rem;	*/
+/*	--wt-h6-size: 0.8rem;		*/
+}
+
