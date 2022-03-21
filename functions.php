@@ -29,11 +29,12 @@ function wt_theme_child_enqueue_parent_styles() {
     $theme = wp_get_theme();
     wp_enqueue_style( 'wt-parent-style',
 					  get_template_directory_uri() . '/style.css' , 
-					  array( 'wt-w3css-style', 'wt-blocks-style', 'wt-getwid-style' ),
+					  array( 'wt-blocks-style', 'wt-getwid-style', 'wt-w3css-style', 'w3m-topnav-style' ),
 					  $theme->parent()->get('Version'),
 					  'all'
     );
 	/*  NO NEED TO ENQUEUE CHILD style.css - THE CHILD IS INCLUDED BY DEFAULT */
+	/*  BUT - MAY NEED TO ORDER CHILD style.css SO IT IS LAST IN THE QUEUE    */
 }
 
 /*
